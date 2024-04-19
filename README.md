@@ -2,7 +2,7 @@
 # TritonAI_IMU
 ## Creating an IMU package (on DonkeyCar)
 
-## IMU sensors
+## IMU sensors in the lab
 
 ## Pose estimation using an IMU sensor
 1. [IMU Dead Reckoning](https://github.com/ecdg/TritonAI_IMU/blob/main/docs/imu_dead_reckoning.md)
