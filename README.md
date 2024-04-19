@@ -1,8 +1,8 @@
-#To-Do: README
+# To-Do: README
 # TritonAI_IMU
-# IMU and its uses
+## Creating an IMU package 
+### IMU sensors
 
-# Pose estimation using an IMU Sensor
-1. [Dead Reckoning]
+## Pose estimation using an IMU Sensor
+1. [IMU Dead Reckoning]()
 2. [IMU & GPS Sensor Fusion]
-
