@@ -1,5 +1,5 @@
 # IMU Dead Reckoning
-### IMU Dead Reckoning for pose estimation utilizes an object's previously known position and its estimated speeds over elapsed time. One way to do this is by integrating the acceleration data from the IMU over time to get velocity, then integrating the estimated velocity to get an estimated position. To find an object's orientation, we can use the angular rates taken from the IMU's gyroscope—-integrating them using quaternions.
+### IMU Dead Reckoning for pose estimation utilizes an object's previously known position and its estimated speeds over elapsed time. One way to do this is by integrating the acceleration data from the IMU over time to get velocity, then integrating the estimated velocity to get an estimated position. To find an object's orientation, we can use the angular rates taken from the IMU's gyroscope—integrating them using quaternions.
 
 ### IMU dead reckoning is useful when GPS data is unavailable. However, please take into account the gradual accumulation of error, which we call "drift".
 
