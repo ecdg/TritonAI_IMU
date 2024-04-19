@@ -3,4 +3,4 @@
 
 ### IMU dead reckoning is useful when GPS data is unavailable. However, please take into account the gradual accumulation of error, which we call "drift".
 
-- [Example of IMU Dead Reckoning from the Triton AI Racer platform](https://github.com/Triton-AI/Triton-AI-Racer-ROS2/blob/96c5d9303b7f1d88dabf7ae9ceb214741d41f20d/src/interface/donkeysim_tai_interface/donkeysim_tai_interface/donkeysim_client_node.py#L244)
+- [An example of IMU Dead Reckoning from the Triton AI Racer platform](https://github.com/Triton-AI/Triton-AI-Racer-ROS2/blob/96c5d9303b7f1d88dabf7ae9ceb214741d41f20d/src/interface/donkeysim_tai_interface/donkeysim_tai_interface/donkeysim_client_node.py#L244)
