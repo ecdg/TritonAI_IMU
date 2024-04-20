@@ -9,7 +9,7 @@ For the **BNO086 IMU of the OAK-D Pro camera**, we have this [modified script](h
 
 If you are using a different IMU sensor, then look into its support documents for handling its data and whether or not they provide a script that does this. If there is none, then you can use its documents as a reference as well as other IMU scripts as a guide when creating one.
 
-### To run on DonkeyCar
+### To include on DonkeyCar
 First, import the IMU script, e.g. imu.py, onto the car folder. Next, modify the complete.py file (it should be in the car folder) so that it imports the IMU object from the script. Then, edit the manage.py file so it imports from the modified complete.py file, which includes an ``add_imu``.
 
 For how it looks:
