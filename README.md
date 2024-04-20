@@ -25,5 +25,13 @@ For how it looks:
 
 ## Pose estimation using an IMU sensor
 Here are implementations of pose estimation using an IMU done in the Triton AI lab. These documents provide more details about these approaches:
-1. [IMU & GPS Sensor Fusion](https://github.com/ecdg/TritonAI_IMU/blob/main/docs/imu_gps_fusion.md)
-2. [IMU Dead Reckoning](https://github.com/ecdg/TritonAI_IMU/blob/main/docs/imu_dead_reckoning.md)
+### IMU & GPS Sensor Fusion
+1. [IMU and GPS sensor fusion using an Extended Kalman filter (EKF)](https://github.com/Triton-AI/DSC190_SP23_Team_EKFIMU) by DSC 190 students from Spring 2023
+2. [IMU and GPS sensor fusion without EKF, relying on accurate RTK GPS data](https://github.com/rohanmeserve/DSC190_WI24_Team_1_donkeycar/tree/main) by DSC 190 students from Winter-Spring 2024, see its accurate estimation performance on this [notebook]
+
+### IMU Dead Reckoning
+1. [IMU Dead Reckoning from the Triton AI Racer platform](https://github.com/Triton-AI/Triton-AI-Racer-ROS2/blob/96c5d9303b7f1d88dabf7ae9ceb214741d41f20d/src/interface/donkeysim_tai_interface/donkeysim_tai_interface/donkeysim_client_node.py#L244)
+
+IMU Dead Reckoning for pose estimation utilizes an object's previously known position and its estimated speeds over elapsed time. One way to do this is by integrating the acceleration data, taken from the IMU's accelerometer, over time to get velocity, then integrating the estimated velocity to get an estimated position. To find an object's orientation, we can use the angular rates taken from the IMU's gyroscope—integrating them using quaternions.
+
+IMU Dead Reckoning is useful when GPS data is unavailable. However, please take into account the gradual accumulation of error, which we call "drift".
