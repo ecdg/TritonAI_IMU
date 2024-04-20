@@ -16,6 +16,17 @@ If you are using a different IMU sensor, then look into its support documents fo
 ### To run on DonkeyCar
 First, import the IMU script, e.g. imu.py, onto the car folder. Next, modify the complete.py file (it should be in the car folder) so that it imports the IMU object from the script. Then, edit the manage.py file so that it imports from the modified complete.py file, which includes an ``add_imu``.
 
+For how it looks:
+- The change in complete.py, where the IMU object is imported from (highlighted section)
+  ![modified_complete](https://github.com/ecdg/TritonAI_IMU/blob/main/docs/modified_complete_file.png)
+
+- Adding a new part to DonkeyCar in manage.py: import object from file, instantiate object, V.add(object, inputs, outputs)
+  ![add_part](https://github.com/ecdg/TritonAI_IMU/blob/main/docs/add_part_manage_file.png)
+
+- If you decide to create a **__separate__** complete.py file, then make sure to change the import path in manage.py (highlighted section)
+  ![separate_complete](https://github.com/ecdg/TritonAI_IMU/blob/main/docs/if_separate_complete_file.png)
+
+
 ## Pose estimation using an IMU sensor
 Here are pose estimations using an IMU sensor that's been implemented in the Triton AI lab:
 1. [IMU & GPS Sensor Fusion]()
