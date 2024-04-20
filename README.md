@@ -1,8 +1,5 @@
 # Using an IMU
 ## Creating an IMU package (on DonkeyCar—has some overlap with the process of creating an IMU package on ROS2)
-write about:
-
-- [ ] explain how to have it running on donkeycar
 ### A script handling the data from the IMU
 The standard DonkeyCar installation includes support for the **MPU-6050** and **MPU-9250** IMU sensors. They have [this script](https://github.com/autorope/donkeycar/blob/main/donkeycar/parts/imu.py) for handling the data from these IMU sensors.
 
