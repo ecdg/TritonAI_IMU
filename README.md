@@ -1,5 +1,4 @@
-# To-Do: README
-# TritonAI_IMU
+# Using an IMU
 ## Creating an IMU package (on DonkeyCar—has some overlap with the process of creating an IMU package on ROS2)
 write about:
 
