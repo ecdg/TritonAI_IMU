@@ -2,11 +2,19 @@
 # TritonAI_IMU
 ## Creating an IMU package (on DonkeyCar—has some overlap with the process of creating an IMU package on ROS2)
 write about:
-- [ ] imu.py, a script handling the data from an IMU
-- [ ] explain the imu.py script being used for different IMU sensors
-- [ ] explain how to have it running on donkeycar
 
-### IMU sensors in the lab (make a separate md file for this)
+- [ ] explain how to have it running on donkeycar
+### A script handling the data from the IMU
+The standard DonkeyCar installation includes support for the **MPU-6050** and **MPU-9250** IMU sensors. They have [this script](https://github.com/autorope/donkeycar/blob/main/donkeycar/parts/imu.py) for handling the data from these IMU sensors.
+
+For the **SparkFun 9DoF Razor IMU**, we can use [this script](https://github.com/NikitaB04/razorIMU_9dof/blob/main/imu.py).
+
+For the **BNO086 IMU of the OAK-D Pro camera**, we have this [modified script](https://github.com/rohanmeserve/dsc190_imu_oakd/blob/main/imu_oakd.py) adding support for this specific IMU. These documents [(1)](https://docs.luxonis.com/projects/api/en/latest/components/nodes/imu/#)[(2)](https://docs.luxonis.com/projects/api/en/latest/samples/IMU/imu_accelerometer_gyroscope/#imu-accelerometer-gyroscope) were used as a guide by the DSC folks when creating the modified script.
+
+If you are using a different IMU sensor, then look into its support documents for handling its data and whether or not they provide a script that does this for you. If there is none, then use its documents as a reference as well as other IMU scripts as a guide when creating one.
+
+### To run on DonkeyCar
+
 
 ## Pose estimation using an IMU sensor
 1. [IMU & GPS Sensor Fusion]()
