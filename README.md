@@ -5,7 +5,7 @@ The standard DonkeyCar installation includes support for the **MPU-6050** and **
 
 For the **SparkFun 9DoF Razor IMU**, we can use [this script](https://github.com/NikitaB04/razorIMU_9dof/blob/main/imu.py).
 
-For the **BNO086 IMU of the OAK-D Pro camera**, we have this [modified script](https://github.com/rohanmeserve/dsc190_imu_oakd/blob/main/imu_oakd.py](https://github.com/rohanmeserve/DSC190_WI24_Team_1_donkeycar/blob/main/DonkeyGPS/imu_oakd.py) adding support for this specific IMU. These documents [(1)](https://docs.luxonis.com/projects/api/en/latest/components/nodes/imu/#)[(2)](https://docs.luxonis.com/projects/api/en/latest/samples/IMU/imu_accelerometer_gyroscope/#imu-accelerometer-gyroscope) were used as a guide by the DSC folks when creating the modified script.
+For the **BNO086 IMU of the OAK-D Pro camera**, we have this [modified script](https://github.com/rohanmeserve/DSC190_WI24_Team_1_donkeycar/blob/main/DonkeyGPS/imu_oakd.py) adding support for this specific IMU sensor. These documents [(1)](https://docs.luxonis.com/projects/api/en/latest/components/nodes/imu/#)[(2)](https://docs.luxonis.com/projects/api/en/latest/samples/IMU/imu_accelerometer_gyroscope/#imu-accelerometer-gyroscope) were used as a guide by the DSC folks when creating the modified script.
 
 If you are using a different IMU sensor, then look into its support documents for handling its data and whether or not they provide a script that does this. If there is none, then you can use its documents as a reference as well as other IMU scripts as a guide when creating one.
 
