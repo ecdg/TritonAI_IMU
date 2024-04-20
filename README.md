@@ -19,7 +19,7 @@ For how it looks:
 - Adding a new part to DonkeyCar in manage.py: import object from file, instantiate object, V.add(object, inputs, outputs)
   ![add_part](https://github.com/ecdg/TritonAI_IMU/blob/main/docs/add_part_manage_file.png)
 
-- If you decide to create a **__separate__** complete.py file, then make sure to change the import path in manage.py (highlighted section)
+- If you decide to create a **_separate_** complete.py file, then make sure to change the import path in manage.py (highlighted section)
   ![separate_complete](https://github.com/ecdg/TritonAI_IMU/blob/main/docs/if_separate_complete_file.png)
 
 
