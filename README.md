@@ -24,6 +24,6 @@ For how it looks:
 
 
 ## Pose estimation using an IMU sensor
-Here are implementations of pose estimation in the Triton AI lab using an IMU:
+Here are implementations of pose estimation using an IMU done in the Triton AI lab:
 1. [IMU & GPS Sensor Fusion](https://github.com/ecdg/TritonAI_IMU/blob/main/docs/imu_gps_fusion.md)
 2. [IMU Dead Reckoning](https://github.com/ecdg/TritonAI_IMU/blob/main/docs/imu_dead_reckoning.md)
