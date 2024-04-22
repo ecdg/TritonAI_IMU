@@ -39,4 +39,4 @@ IMU Dead Reckoning for pose estimation utilizes an object's previously known pos
 
 IMU Dead Reckoning is useful when GPS data is unavailable. However, please take into account the gradual accumulation of error, which we call "drift".
 
-## To-do: Details about the work done on the other IMU sensors in the lab and how to use them
+## To-do: Details about the work done on the other IMU sensors in the lab and how to go about using them
