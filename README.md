@@ -30,7 +30,7 @@ Here are implementations of pose estimation using an IMU done in the Triton AI l
 2. [IMU and GPS sensor fusion without EKF, relying on accurate RTK GPS data](https://github.com/rohanmeserve/DSC190_WI24_Team_1_donkeycar/tree/main) by DSC 190 students from Winter-Spring 2024, whom I mentored on using an IMU sensor and implementing sensor fusion with GPS.
    See its accurate estimation performance on this [notebook](https://github.com/rohanmeserve/DSC190_WI24_Team_1_donkeycar/blob/main/DonkeyGPS/notebooks/estimator_performance.ipynb).
 
-(To-do) For more information on these approaches, please refer to the following documents: [fusion using EKF](), [fusion relying on RTK GPS]()
+(**To-do**) For more information on these approaches, please refer to the following documents: [fusion using EKF](), [fusion relying on RTK GPS]()
 
 ### IMU Dead Reckoning
 1. [IMU Dead Reckoning](https://github.com/Triton-AI/Triton-AI-Racer-ROS2/blob/96c5d9303b7f1d88dabf7ae9ceb214741d41f20d/src/interface/donkeysim_tai_interface/donkeysim_tai_interface/donkeysim_client_node.py#L244) from the Triton AI Racer platform
@@ -39,4 +39,4 @@ IMU Dead Reckoning for pose estimation utilizes an object's previously known pos
 
 IMU Dead Reckoning is useful when GPS data is unavailable. However, please take into account the gradual accumulation of error, which we call "drift".
 
-## To-do: Details about the work done on the other IMU sensors in the lab and how to go about using them
+## (To-do) Details about the work done on the other IMU sensors in the lab and how to go about using them
